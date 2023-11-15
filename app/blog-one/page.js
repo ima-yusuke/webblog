@@ -15,7 +15,7 @@ function FirstBlog() {
 
         {/* title part */}
         <article className={styles.title}>
-          <Image src={titlePic}></Image>
+          <Image src={titlePic} alt="pic01"></Image>
           <p>
             <b>未経験からIT転職したい人</b>
             『未経験でも応募できる企業や求められるレベルを知りたい。IT業界への未経験転職はやめとけ、ブラックなどと聞くが大丈夫かな。興味あるけど30代でも間に合うかな、、、どうやって企業を見つけよう、、、』
@@ -45,14 +45,14 @@ function FirstBlog() {
         {/* ①未経験でも問題ない理由 */}
         <article>
           <h2 className={styles.content}>①未経験でも問題ない理由</h2>
-          <Image src={Pic02} className={styles.pics}></Image>
+          <Image src={Pic02} className={styles.pics} alt="pic02"></Image>
           <p>結論として問題ありません</p>
         </article>
 
         {/* ②30代でも転職する方法 */}
         <article>
           <h2 className={styles.content}>②30代でも転職する方法</h2>
-          <Image src={Pic03} className={styles.pics}></Image>
+          <Image src={Pic03} className={styles.pics} alt="pic03"></Image>
           <p>結論として問題ありません</p>
         </article>
 
@@ -61,7 +61,7 @@ function FirstBlog() {
           <h2 className={styles.content}>
             ③未経験でも応募できる企業をまとめました
           </h2>
-          <Image src={Pic04} className={styles.pics}></Image>
+          <Image src={Pic04} className={styles.pics} alt="pic04"></Image>
           <table className="table table-striped table-hover">
             <thead>
               <tr>
@@ -99,7 +99,7 @@ function FirstBlog() {
           <h2 className={styles.content}>
             ④未経験の方におすすめな求人サイトのご紹介
           </h2>
-          <Image src={Pic05} className={styles.pics}></Image>
+          <Image src={Pic05} className={styles.pics} alt="pic05"></Image>
           <p>結論として問題ありません</p>
         </article>
       </div>
