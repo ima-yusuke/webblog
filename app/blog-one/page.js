@@ -1,6 +1,11 @@
 import titlePic from "../../public/titlePic.png";
 import Image from "next/image";
+import Pic02 from "../../public/pic-02.jpg";
+import Pic03 from "../../public/pic-03.jpg";
+import Pic04 from "../../public/pic-04.jpg";
+import Pic05 from "../../public/pic-05.jpg";
 import styles from "./firstBlog.module.scss";
+import joblists from "./job.json";
 
 function FirstBlog() {
   return (
@@ -39,7 +44,63 @@ function FirstBlog() {
 
         {/* ①未経験でも問題ない理由 */}
         <article>
-            <h2 className={styles.content}>①未経験でも問題ない理由</h2>
+          <h2 className={styles.content}>①未経験でも問題ない理由</h2>
+          <Image src={Pic02} className={styles.pics}></Image>
+          <p>結論として問題ありません</p>
+        </article>
+
+        {/* ②30代でも転職する方法 */}
+        <article>
+          <h2 className={styles.content}>②30代でも転職する方法</h2>
+          <Image src={Pic03} className={styles.pics}></Image>
+          <p>結論として問題ありません</p>
+        </article>
+
+        {/* ③未経験でも応募できる企業をまとめました */}
+        <article>
+          <h2 className={styles.content}>
+            ③未経験でも応募できる企業をまとめました
+          </h2>
+          <Image src={Pic04} className={styles.pics}></Image>
+          <table className="table table-striped table-hover">
+            <thead>
+              <tr>
+                <th>会社名</th>
+                <th>勤務地</th>
+                <th>リモート</th>
+                <th>種類</th>
+                <th>働き方</th>
+                <th>面接</th>
+                <th>研修</th>
+              </tr>
+            </thead>
+            <tbody>
+              {joblists.map((value) => {
+                return (
+                  <tr>
+                    <td>{value.name}</td>
+                    <td>{value.place}</td>
+                    <td>{value.remote}</td>
+                    <td>{value.type}</td>
+                    <td>{value.workstyle}</td>
+                    <td>{value.interview}</td>
+                    <td>{value.training}</td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
+
+          
+        </article>
+
+        {/* ④未経験の方におすすめな求人サイトのご紹介 */}
+        <article>
+          <h2 className={styles.content}>
+            ④未経験の方におすすめな求人サイトのご紹介
+          </h2>
+          <Image src={Pic05} className={styles.pics}></Image>
+          <p>結論として問題ありません</p>
         </article>
       </div>
     </div>

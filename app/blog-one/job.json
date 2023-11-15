@@ -1,0 +1,14 @@
+[
+    {"ID":"1","name":"アルサーガパートナーズ株式会社","place":"東京・福岡","remote":"△","type":"フルスタック","workstyle":"自社開発","interview":"2回","training":"無"},
+    {"ID":"2","name":"株式会社三河屋","place":"愛知","remote":"△","type":"-","workstyle":"SES","interview":"2回","training":"有"},
+    {"ID":"3","name":"株式会社オータム","place":"大阪","remote":"-","type":"-","workstyle":"SES・自社開発","interview":"-","training":"有"},
+    {"ID":"4","name":"株式会社Be win","place":"福岡","remote":"-","type":"-","workstyle":"SES","interview":"-","training":"有"},
+    {"ID":"5","name":"株式会社フュージョニア","place":"東京","remote":"-","type":"インフラ","workstyle":"SES","interview":"2回","training":"有"},
+    {"ID":"6","name":"エボラニ株式会社","place":"神奈川","remote":"-","type":"フルスタック","workstyle":"-","interview":"※英語面接","training":"-"},
+    {"ID":"7","name":"engine Incubation","place":"東京","remote":"-","type":"フルスタック","workstyle":"-","interview":"2回","training":"有"},
+    {"ID":"8","name":"株式会社N-STAFF","place":"東京","remote":"-","type":"-","workstyle":"-","interview":"2回","training":"有"},
+    {"ID":"9","name":"株式会社Gemcook","place":"大阪","remote":"-","type":"フルスタック","workstyle":"自社開発","interview":"2回(技術試験有)","training":"無"},
+    {"ID":"10","name":"ネクストライブ株式会社","place":"大阪","remote":"△","type":"-","workstyle":"自社開発","interview":"2回","training":"有"},
+    {"ID":"11","name":"株式会社ロックシステム","place":"大阪","remote":"△","type":"-","workstyle":"SES","interview":"2回","training":"有"},
+    {"ID":"12","name":"株式会社アプリズム","place":"大阪","remote":"△","type":"-","workstyle":"SES","interview":"-","training":"-"}
+]
