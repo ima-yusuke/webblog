@@ -10,5 +10,6 @@
     {"ID":"9","name":"株式会社Gemcook","place":"大阪","remote":"-","type":"フルスタック","workstyle":"自社開発","interview":"2回(技術試験有)","training":"無"},
     {"ID":"10","name":"ネクストライブ株式会社","place":"大阪","remote":"△","type":"-","workstyle":"自社開発","interview":"2回","training":"有"},
     {"ID":"11","name":"株式会社ロックシステム","place":"大阪","remote":"△","type":"-","workstyle":"SES","interview":"2回","training":"有"},
-    {"ID":"12","name":"株式会社アプリズム","place":"大阪","remote":"△","type":"-","workstyle":"SES","interview":"-","training":"-"}
+    {"ID":"12","name":"株式会社アプリズム","place":"大阪","remote":"△","type":"-","workstyle":"SES","interview":"-","training":"-"},
+    {"ID":"13","name":"株式会社Ruby開発","place":"-","remote":"◯","type":"-","workstyle":"-","interview":"2回","training":"-"}
 ]
