@@ -77,7 +77,7 @@ function FirstBlog() {
             <tbody>
               {joblists.map((value) => {
                 return (
-                  <tr>
+                  <tr key={value.id}>
                     <td>{value.name}</td>
                     <td>{value.place}</td>
                     <td>{value.remote}</td>
