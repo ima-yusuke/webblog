@@ -4,6 +4,7 @@ import Pic02 from "../../public/pic-02.jpg";
 import Pic03 from "../../public/pic-03.jpg";
 import Pic04 from "../../public/pic-04.jpg";
 import Pic05 from "../../public/pic-05.jpg";
+import Pic06 from "../../public/pic-06.jpg";
 import styles from "./firstBlog.module.scss";
 import joblists from "./job.json";
 
@@ -11,7 +12,9 @@ function FirstBlog() {
   return (
     <div className={styles.bgColor}>
       <div className={styles.firstBlog}>
-        <h1>未経験からのIT業界への転職ロードマップ</h1>
+        <time datetime="2023-11-16T12:00">2023 / 11 / 16</time>
+        <h1>【完全未経験向け】IT業界への転職方法</h1>
+        <Image src={Pic06} alt="pic06" className={styles.pics} ></Image>
 
         {/* title part */}
         <article className={styles.title}>
@@ -90,8 +93,6 @@ function FirstBlog() {
               })}
             </tbody>
           </table>
-
-          
         </article>
 
         {/* ④未経験の方におすすめな求人サイトのご紹介 */}

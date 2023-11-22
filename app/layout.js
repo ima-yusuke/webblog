@@ -4,11 +4,15 @@ export const metadata = {
 }
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Nav from './nav/page';
+import HeadComponent from './head-component/page';
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
+        <HeadComponent></HeadComponent>
+        <Nav></Nav>
         {children}
       </body>
     </html>

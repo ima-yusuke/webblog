@@ -1,7 +1,10 @@
 @media screen and (min-width: 375px) {
   .bgColor {
-    padding-left: 0%;
-    padding-right: 0%;
+    background-color: rgb(247, 247, 247);
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
   }
 
   .title {
@@ -43,6 +46,7 @@
   }
 
   .firstBlog {
+    padding-bottom: 3%;
     table {
       table-layout: fixed;
       word-break: break-all;
@@ -120,7 +124,15 @@
 
   h1 {
     text-align: center;
+    color: rgb(123,123,123);
   }
+
+   time{
+    text-align: center;
+    color: rgb(123,123,123);
+    padding-top: 5%;
+
+   }
 
   h2 {
     padding-bottom: 3%;

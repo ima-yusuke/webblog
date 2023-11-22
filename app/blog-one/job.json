@@ -11,5 +11,12 @@
     {"ID":"10","name":"ネクストライブ株式会社","place":"大阪","remote":"△","type":"-","workstyle":"自社開発","interview":"2回","training":"有"},
     {"ID":"11","name":"株式会社ロックシステム","place":"大阪","remote":"△","type":"-","workstyle":"SES","interview":"2回","training":"有"},
     {"ID":"12","name":"株式会社アプリズム","place":"大阪","remote":"△","type":"-","workstyle":"SES","interview":"-","training":"-"},
-    {"ID":"13","name":"株式会社Ruby開発","place":"-","remote":"◯","type":"-","workstyle":"-","interview":"2回","training":"-"}
+    {"ID":"13","name":"株式会社Ruby開発","place":"福岡・仙台","remote":"◯","type":"-","workstyle":"自社開発","interview":"2回","training":"-"},
+    {"ID":"14","name":"株式会社キュー","place":"東京","remote":"△","type":"フロントエンド","workstyle":"自社開発","interview":"2回","training":"無"},
+    {"ID":"15","name":"株式会社var","place":"-","remote":"◯","type":"フルスタック","workstyle":"自社開発","interview":"2回","training":"△"},
+    {"ID":"16","name":"株式会社Piv","place":"大阪","remote":"✖️","type":"-","workstyle":"SES","interview":"-","training":"◯"},
+    {"ID":"17","name":"株式会社BTM","place":"-","remote":"◯","type":"フルスタック","workstyle":"受託開発","interview":"2回","training":"◯"},
+    {"ID":"18","name":"株式会社CHILLNN","place":"京都","remote":"✖︎","type":"フルスタック","workstyle":"自社開発","interview":"2回","training":"✖︎"},
+    {"ID":"19","name":"株式会社ReAct","place":"大阪・神戸","remote":"✖︎","type":"PHP・Laravel","workstyle":"受託開発・SES","interview":"2回","training":"○"},
+    {"ID":"20","name":"株式会社C-tag","place":"大阪","remote":"✖︎","type":"フルスタック","workstyle":"自社開発","interview":"2回","training":"✖︎"}
 ]
