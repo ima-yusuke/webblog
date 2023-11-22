@@ -15,11 +15,6 @@ function Nav() {
               SESの実態
             </Link>
           </li>
-          <li>
-            <Link href="../../blog-one" className={styles.link}>
-              N+1問題とは
-            </Link>
-          </li>
         </ul>
       </nav>
   );
