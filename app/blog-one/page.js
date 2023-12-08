@@ -1,3 +1,4 @@
+"use client";
 import titlePic from "../../public/titlePic.png";
 import Image from "next/image";
 import Pic02 from "../../public/pic-02.jpg";
@@ -7,12 +8,28 @@ import Pic05 from "../../public/pic-05.jpg";
 import Pic06 from "../../public/pic-06.jpg";
 import styles from "./firstBlog.module.scss";
 import joblists from "./job.json";
+import ModalComponent from "./modal";
+import { useState } from "react";
+
+
 
 function FirstBlog() {
+
+  const openModel =(value)=>{
+    setModalDefaultOpen({flag:true,data:value})
+  }
+
+  const [modalDefaultOpen, setModalDefaultOpen] = useState({flag:false,data:null});
+
+
   return (
     <div className={styles.bgColor}>
+      
+
+      <ModalComponent modalDefaultOpen={modalDefaultOpen} setModalDefaultOpen={setModalDefaultOpen}></ModalComponent>
+
       <div className={styles.firstBlog}>
-        <time datetime="2023-11-16T12:00">2023 / 11 / 16</time>
+        <time dateTime="2023-11-16T12:00">2023 / 11 / 16</time>
         <h1>【完全未経験向け】IT業界への転職方法</h1>
         <Image src={Pic06} alt="pic06" className={styles.pics} ></Image>
 
@@ -70,24 +87,14 @@ function FirstBlog() {
               <tr>
                 <th>会社名</th>
                 <th>勤務地</th>
-                <th>リモート</th>
-                <th>種類</th>
-                <th>働き方</th>
-                <th>面接</th>
-                <th>研修</th>
               </tr>
             </thead>
             <tbody>
               {joblists.map((value) => {
                 return (
-                  <tr key={value.id}>
-                    <td>{value.name}</td>
-                    <td>{value.place}</td>
-                    <td>{value.remote}</td>
-                    <td>{value.type}</td>
-                    <td>{value.workstyle}</td>
-                    <td>{value.interview}</td>
-                    <td>{value.training}</td>
+                  <tr key={value.ID} onClick={()=>openModel(value)}>
+                    <td >{value.name}</td>
+                    <td >{value.place}</td>
                   </tr>
                 );
               })}
