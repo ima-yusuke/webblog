@@ -85,6 +85,7 @@ function FirstBlog() {
           <table className="table table-striped table-hover">
             <thead>
               <tr>
+                <th className={styles.tdID}>/</th>
                 <th>会社名</th>
                 <th>勤務地</th>
               </tr>
@@ -93,6 +94,7 @@ function FirstBlog() {
               {joblists.map((value) => {
                 return (
                   <tr key={value.ID} onClick={()=>openModel(value)}>
+                    <td className={styles.tdID}>{value.ID}</td>
                     <td >{value.name}</td>
                     <td >{value.place}</td>
                   </tr>
